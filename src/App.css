@@ -1,0 +1,34 @@
+.cart {
+  max-height: 500px;
+}
+* {
+  font-size: large;
+}
+.flex {
+  display: flex;
+}
+.list-group-item {
+  display: flex;
+}
+/* CSS tùy chỉnh cho các nút */
+.cancel-btn {
+  background-color: #f5222d; /* Màu đỏ */
+  color: white;
+  border: none;
+}
+
+.ok-btn {
+  background-color: #1890ff; /* Màu xanh dương */
+  color: white;
+  border: none;
+}
+
+.quantity-btn {
+  background-color: #1890ff; /* Màu xanh dương */
+  color: white;
+  border: none;
+}
+
+.quantity-btn:hover {
+  background-color: #40a9ff; /* Màu xanh dương nhạt khi di chuột qua */
+}
